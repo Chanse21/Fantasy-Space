@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections.Generic;
+using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -6,11 +8,14 @@ public class PlayerMovement : MonoBehaviour
    public float jumpForce = 7f;
    private Rigidbody2D rb;
    private bool isGrounded = false;
+   private Vector2 moveInput;
+   private Animator animator;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -37,6 +42,21 @@ public class PlayerMovement : MonoBehaviour
       }
     }
 
+private void Move(InputAction.CallbackContext context)
+  {
+    animator.SetBool("isRunning", true);
+
+    if (context.canceled)
+    {
+      animator.SetBool ("isRunning", false);
+      animator.SetFloat("LastInputX", moveInput.x);
+      animator.SetFloat("LastInputY", moveInput.y);
+    }
+
+    moveInput = context.ReadValue<Vector2>();
+    animator.SetFloat("InputX", moveInput.x);
+    animator.SetFloat("InputY", moveInput.y);
+  }
     void OnCollisionEnter2D(Collision2D collision)
   {  
     if (collision.gameObject.CompareTag("Ground"))
