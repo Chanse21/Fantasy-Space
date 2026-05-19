@@ -528,6 +528,7 @@ GameObject:
   m_Component:
   - component: {fileID: 196169221}
   - component: {fileID: 196169220}
+  - component: {fileID: 196169222}
   m_Layer: 0
   m_Name: Dirt
   m_TagString: Untagged
@@ -612,6 +613,21 @@ Transform:
   - {fileID: 395004027}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &196169222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196169219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1 &252828985
 GameObject:
   m_ObjectHideFlags: 0
@@ -1934,6 +1950,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1391380577}
+  - component: {fileID: 1391380578}
   m_Layer: 0
   m_Name: Forest Trees
   m_TagString: Untagged
@@ -1959,6 +1976,21 @@ Transform:
   - {fileID: 856040760}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1391380578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391380576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1 &1476077034
 GameObject:
   m_ObjectHideFlags: 0
@@ -2506,6 +2538,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1795831868}
   - component: {fileID: 1795831867}
+  - component: {fileID: 1795831869}
   m_Layer: 0
   m_Name: Grass
   m_TagString: Untagged
@@ -2590,6 +2623,21 @@ Transform:
   - {fileID: 638547386}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1795831869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795831866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1 &1823846066
 GameObject:
   m_ObjectHideFlags: 0
@@ -2805,6 +2853,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2103463377}
   - component: {fileID: 2103463376}
+  - component: {fileID: 2103463378}
   m_Layer: 0
   m_Name: Sky
   m_TagString: Untagged
@@ -2889,6 +2938,21 @@ Transform:
   - {fileID: 624172139}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2103463378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103463375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
