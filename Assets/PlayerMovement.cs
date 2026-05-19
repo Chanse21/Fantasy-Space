@@ -4,71 +4,82 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-   public float moveSpeed = 5f;
-   public float jumpForce = 7f;
-   private Rigidbody2D rb;
-   private bool isGrounded = false;
-   private Vector2 moveInput;
-   private Animator animator;
+  public float moveSpeed = 5f;
+public float jumpForce = 7f;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
-    }
+private Rigidbody2D rb;
+private bool isGrounded = false;
+private Animator animator;
 
-    // Update is called once per frame
-    void Update()
-    {
-      float moveInput = 0f;
+void Start()
+{
+rb = GetComponent<Rigidbody2D>();
+animator = GetComponent<Animator>();
+}
 
-      if (Input.GetKey("d")) 
-      {
-        moveInput = 1f;
-      } 
-      
-     if (Input.GetKey("a")) 
-      {
-        moveInput = -1f;
-      } 
+void Update()
+{
+float moveInput = 0f;
 
-      rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+// Movement input
+if (Input.GetKey(KeyCode.D))
+{
+moveInput = 1f;
+}
 
-      if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
-      {
-        rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-        isGrounded = false;
-      }
-    }
+if (Input.GetKey(KeyCode.A))
+{
+moveInput = -1f;
+}
 
-private void Move(InputAction.CallbackContext context)
-  {
-    animator.SetBool("isRunning", true);
+// Move player
+rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
 
-    if (context.canceled)
-    {
-      animator.SetBool ("isRunning", false);
-      animator.SetFloat("LastInputX", moveInput.x);
-      animator.SetFloat("LastInputY", moveInput.y);
-    }
+// Running animation
+if (moveInput != 0)
+{
+animator.SetBool("isRunning", true);
 
-    moveInput = context.ReadValue<Vector2>();
-    animator.SetFloat("InputX", moveInput.x);
-    animator.SetFloat("InputY", moveInput.y);
-  }
-    void OnCollisionEnter2D(Collision2D collision)
-  {  
-    if (collision.gameObject.CompareTag("Ground"))
-    {
-        isGrounded = true;
-    }
-  }
-    void OnCollisionExit2D(Collision2D collision)
-  { 
-    if (collision.gameObject.CompareTag("Ground"))
-    {
-        isGrounded = false;
-    }
-  }
+animator.SetFloat("LastInputX", moveInput);
+animator.SetFloat("LastInputY", 0);
+}
+else
+{
+animator.SetBool("isRunning", false);
+}
+
+// Movement animator values
+animator.SetFloat("InputX", moveInput);
+animator.SetFloat("InputY", 0);
+
+// Jump
+if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+{
+rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+
+isGrounded = false;
+
+animator.SetBool("isJumping", true);
+}
+}
+
+void OnCollisionEnter2D(Collision2D collision)
+{
+if (collision.gameObject.CompareTag("Ground"))
+{
+isGrounded = true;
+
+animator.SetBool("isJumping", false);
+}
+}
+
+void OnCollisionExit2D(Collision2D collision)
+{
+if (collision.gameObject.CompareTag("Ground"))
+{
+isGrounded = false;
+
+animator.SetBool("isJumping", true);
+}
+}
 }
