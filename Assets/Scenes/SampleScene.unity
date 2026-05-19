@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 14440932}
   - component: {fileID: 14440933}
+  - component: {fileID: 14440934}
   m_Layer: 0
   m_Name: Sky (1)
   m_TagString: Untagged
@@ -210,6 +211,21 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &14440934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14440931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1 &30113092
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,6 +236,7 @@ GameObject:
   m_Component:
   - component: {fileID: 30113093}
   - component: {fileID: 30113094}
+  - component: {fileID: 30113095}
   m_Layer: 0
   m_Name: Tree (2)
   m_TagString: Untagged
@@ -236,8 +253,8 @@ Transform:
   m_GameObject: {fileID: 30113092}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.9, y: 0.0466, z: 0}
-  m_LocalScale: {x: 13.164818, y: 9.12669, z: 1}
+  m_LocalPosition: {x: 4.59662, y: -1.1315, z: 0}
+  m_LocalScale: {x: 12.967492, y: 5.6489058, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 856040760}
@@ -301,6 +318,21 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &30113095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30113092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1 &68001010
 GameObject:
   m_ObjectHideFlags: 0
@@ -311,6 +343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 68001011}
   - component: {fileID: 68001012}
+  - component: {fileID: 68001013}
   m_Layer: 0
   m_Name: Tree
   m_TagString: Untagged
@@ -327,8 +360,8 @@ Transform:
   m_GameObject: {fileID: 68001010}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.77, y: 0.0466, z: 0}
-  m_LocalScale: {x: 13.164818, y: 9.12669, z: 1}
+  m_LocalPosition: {x: 0.84788, y: -1.1315, z: 0}
+  m_LocalScale: {x: 12.967492, y: 5.6489058, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 118072323}
@@ -392,6 +425,21 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &68001013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68001010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1 &111165068
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,6 +450,7 @@ GameObject:
   m_Component:
   - component: {fileID: 111165069}
   - component: {fileID: 111165070}
+  - component: {fileID: 111165071}
   m_Layer: 0
   m_Name: Tree (1)
   m_TagString: Untagged
@@ -418,8 +467,8 @@ Transform:
   m_GameObject: {fileID: 111165068}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.49, y: 0.0466, z: 0}
-  m_LocalScale: {x: 13.164818, y: 9.12669, z: 1}
+  m_LocalPosition: {x: 2.5421, y: -1.1315, z: 0}
+  m_LocalScale: {x: 12.967492, y: 5.6489058, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 118072323}
@@ -483,6 +532,21 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &111165071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111165068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1 &118072322
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,6 +556,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 118072323}
+  - component: {fileID: 118072324}
   m_Layer: 0
   m_Name: Trees (1)
   m_TagString: Untagged
@@ -518,6 +583,21 @@ Transform:
   - {fileID: 1769819983}
   m_Father: {fileID: 1391380577}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &118072324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118072322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1 &196169219
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,6 +718,7 @@ GameObject:
   m_Component:
   - component: {fileID: 252828986}
   - component: {fileID: 252828987}
+  - component: {fileID: 252828988}
   m_Layer: 0
   m_Name: Tree (3)
   m_TagString: Untagged
@@ -654,8 +735,8 @@ Transform:
   m_GameObject: {fileID: 252828985}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.96, y: -0.17, z: 0}
-  m_LocalScale: {x: 13.164818, y: 9.12669, z: 1}
+  m_LocalPosition: {x: 6.62574, y: -1.2656, z: 0}
+  m_LocalScale: {x: 12.967492, y: 5.6489058, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 856040760}
@@ -719,6 +800,21 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &252828988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252828985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1 &385263906
 GameObject:
   m_ObjectHideFlags: 0
@@ -729,6 +825,7 @@ GameObject:
   m_Component:
   - component: {fileID: 385263907}
   - component: {fileID: 385263908}
+  - component: {fileID: 385263909}
   m_Layer: 0
   m_Name: Tree (1)
   m_TagString: Untagged
@@ -745,8 +842,8 @@ Transform:
   m_GameObject: {fileID: 385263906}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.27, y: 0.0466, z: 0}
-  m_LocalScale: {x: 13.164818, y: 9.12669, z: 1}
+  m_LocalPosition: {x: 2.00606, y: -1.1315, z: 0}
+  m_LocalScale: {x: 12.967492, y: 5.6489058, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 856040760}
@@ -810,6 +907,21 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &385263909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385263906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1 &395004026
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,6 +933,7 @@ GameObject:
   - component: {fileID: 395004027}
   - component: {fileID: 395004028}
   - component: {fileID: 395004029}
+  - component: {fileID: 395004030}
   m_Layer: 0
   m_Name: Dirt (3)
   m_TagString: Ground
@@ -948,6 +1061,21 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.33, y: 0.06834479}
   m_EdgeRadius: 0
+--- !u!114 &395004030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395004026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1050,6 +1178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 624172139}
   - component: {fileID: 624172140}
+  - component: {fileID: 624172141}
   m_Layer: 0
   m_Name: Sky (3)
   m_TagString: Untagged
@@ -1131,6 +1260,21 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &624172141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624172138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1 &638547385
 GameObject:
   m_ObjectHideFlags: 0
@@ -1141,6 +1285,7 @@ GameObject:
   m_Component:
   - component: {fileID: 638547386}
   - component: {fileID: 638547387}
+  - component: {fileID: 638547388}
   m_Layer: 0
   m_Name: Grass (3)
   m_TagString: Untagged
@@ -1222,6 +1367,21 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &638547388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638547385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1 &685644363
 GameObject:
   m_ObjectHideFlags: 0
@@ -1232,6 +1392,7 @@ GameObject:
   m_Component:
   - component: {fileID: 685644364}
   - component: {fileID: 685644365}
+  - component: {fileID: 685644366}
   m_Layer: 0
   m_Name: Tree (1)
   m_TagString: Untagged
@@ -1248,8 +1409,8 @@ Transform:
   m_GameObject: {fileID: 685644363}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.49, y: 0.0466, z: 0}
-  m_LocalScale: {x: 13.164818, y: 9.12669, z: 1}
+  m_LocalPosition: {x: 2.37972, y: -1.1315, z: 0}
+  m_LocalScale: {x: 12.967492, y: 5.6489058, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1514027811}
@@ -1313,6 +1474,21 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &685644366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685644363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1 &722501768
 GameObject:
   m_ObjectHideFlags: 0
@@ -1323,6 +1499,7 @@ GameObject:
   m_Component:
   - component: {fileID: 722501769}
   - component: {fileID: 722501770}
+  - component: {fileID: 722501771}
   m_Layer: 0
   m_Name: Sky (2)
   m_TagString: Untagged
@@ -1404,6 +1581,21 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &722501771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722501768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1 &726354371
 GameObject:
   m_ObjectHideFlags: 0
@@ -1415,6 +1607,7 @@ GameObject:
   - component: {fileID: 726354372}
   - component: {fileID: 726354373}
   - component: {fileID: 726354374}
+  - component: {fileID: 726354375}
   m_Layer: 0
   m_Name: Dirt (2)
   m_TagString: Ground
@@ -1542,6 +1735,21 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.33, y: 0.06834487}
   m_EdgeRadius: 0
+--- !u!114 &726354375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726354371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1 &847236692
 GameObject:
   m_ObjectHideFlags: 0
@@ -1552,6 +1760,7 @@ GameObject:
   m_Component:
   - component: {fileID: 847236693}
   - component: {fileID: 847236694}
+  - component: {fileID: 847236695}
   m_Layer: 0
   m_Name: Tree
   m_TagString: Untagged
@@ -1568,8 +1777,8 @@ Transform:
   m_GameObject: {fileID: 847236692}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.16, y: 0.0466, z: 0}
-  m_LocalScale: {x: 13.164818, y: 9.12669, z: 1}
+  m_LocalPosition: {x: -0.38752, y: -1.1315, z: 0}
+  m_LocalScale: {x: 12.967492, y: 5.6489058, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 856040760}
@@ -1633,6 +1842,21 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &847236695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847236692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1 &856040759
 GameObject:
   m_ObjectHideFlags: 0
@@ -1642,6 +1866,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 856040760}
+  - component: {fileID: 856040761}
   m_Layer: 0
   m_Name: Trees (2)
   m_TagString: Untagged
@@ -1668,6 +1893,21 @@ Transform:
   - {fileID: 252828986}
   m_Father: {fileID: 1391380577}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &856040761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856040759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1 &1079829694
 GameObject:
   m_ObjectHideFlags: 0
@@ -1678,6 +1918,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1079829695}
   - component: {fileID: 1079829696}
+  - component: {fileID: 1079829697}
   m_Layer: 0
   m_Name: Tree (2)
   m_TagString: Untagged
@@ -1694,8 +1935,8 @@ Transform:
   m_GameObject: {fileID: 1079829694}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.23, y: 0.0466, z: 0}
-  m_LocalScale: {x: 13.164818, y: 9.12669, z: 1}
+  m_LocalPosition: {x: 5.07865, y: -1.1315, z: 0}
+  m_LocalScale: {x: 12.967492, y: 5.6489058, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1514027811}
@@ -1759,6 +2000,21 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1079829697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079829694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1 &1200613021
 GameObject:
   m_ObjectHideFlags: 0
@@ -1769,6 +2025,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1200613022}
   - component: {fileID: 1200613023}
+  - component: {fileID: 1200613024}
   m_Layer: 0
   m_Name: Tree (3)
   m_TagString: Untagged
@@ -1785,8 +2042,8 @@ Transform:
   m_GameObject: {fileID: 1200613021}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.83, y: -0.12, z: 0}
-  m_LocalScale: {x: 13.164818, y: 9.12669, z: 1}
+  m_LocalPosition: {x: 7.63967, y: -1.2346, z: 0}
+  m_LocalScale: {x: 12.967492, y: 5.6489058, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1514027811}
@@ -1850,6 +2107,21 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1200613024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200613021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1 &1247892730
 GameObject:
   m_ObjectHideFlags: 0
@@ -1860,6 +2132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1247892731}
   - component: {fileID: 1247892732}
+  - component: {fileID: 1247892733}
   m_Layer: 0
   m_Name: Tree (2)
   m_TagString: Untagged
@@ -1876,8 +2149,8 @@ Transform:
   m_GameObject: {fileID: 1247892730}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.23, y: 0.0466, z: 0}
-  m_LocalScale: {x: 13.164818, y: 9.12669, z: 1}
+  m_LocalPosition: {x: 5.24101, y: -1.1315, z: 0}
+  m_LocalScale: {x: 12.967492, y: 5.6489058, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 118072323}
@@ -1941,6 +2214,21 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1247892733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247892730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1 &1391380576
 GameObject:
   m_ObjectHideFlags: 0
@@ -2001,6 +2289,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1476077035}
   - component: {fileID: 1476077036}
+  - component: {fileID: 1476077037}
   m_Layer: 0
   m_Name: Grass (2)
   m_TagString: Untagged
@@ -2082,6 +2371,21 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1476077037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476077034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1 &1514027810
 GameObject:
   m_ObjectHideFlags: 0
@@ -2091,6 +2395,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1514027811}
+  - component: {fileID: 1514027812}
   m_Layer: 0
   m_Name: Trees
   m_TagString: Untagged
@@ -2117,6 +2422,21 @@ Transform:
   - {fileID: 1200613022}
   m_Father: {fileID: 1391380577}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1514027812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514027810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1 &1656591078
 GameObject:
   m_ObjectHideFlags: 0
@@ -2127,6 +2447,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1656591079}
   - component: {fileID: 1656591080}
+  - component: {fileID: 1656591081}
   m_Layer: 0
   m_Name: Tree
   m_TagString: Untagged
@@ -2143,8 +2464,8 @@ Transform:
   m_GameObject: {fileID: 1656591078}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.16, y: 0.0466, z: 0}
-  m_LocalScale: {x: 13.164818, y: 9.12669, z: 1}
+  m_LocalPosition: {x: -0.23055, y: -1.1315, z: 0}
+  m_LocalScale: {x: 12.967492, y: 5.6489058, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1514027811}
@@ -2208,6 +2529,21 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1656591081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656591078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1 &1755313825
 GameObject:
   m_ObjectHideFlags: 0
@@ -2218,6 +2554,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1755313826}
   - component: {fileID: 1755313827}
+  - component: {fileID: 1755313828}
   m_Layer: 0
   m_Name: Grass (1)
   m_TagString: Untagged
@@ -2234,8 +2571,8 @@ Transform:
   m_GameObject: {fileID: 1755313825}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.29, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -2.30648, y: 0, z: 0}
+  m_LocalScale: {x: 1.01412, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1795831868}
@@ -2299,6 +2636,21 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1755313828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755313825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1 &1769819982
 GameObject:
   m_ObjectHideFlags: 0
@@ -2309,6 +2661,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1769819983}
   - component: {fileID: 1769819984}
+  - component: {fileID: 1769819985}
   m_Layer: 0
   m_Name: Tree (3)
   m_TagString: Untagged
@@ -2325,8 +2678,8 @@ Transform:
   m_GameObject: {fileID: 1769819982}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.83, y: -0.12, z: 0}
-  m_LocalScale: {x: 13.164818, y: 9.12669, z: 1}
+  m_LocalPosition: {x: 7.80203, y: -1.2346, z: 0}
+  m_LocalScale: {x: 12.967492, y: 5.6489058, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 118072323}
@@ -2390,6 +2743,21 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1769819985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769819982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1 &1783276070
 GameObject:
   m_ObjectHideFlags: 0
@@ -2401,6 +2769,7 @@ GameObject:
   - component: {fileID: 1783276071}
   - component: {fileID: 1783276072}
   - component: {fileID: 1783276073}
+  - component: {fileID: 1783276074}
   m_Layer: 0
   m_Name: Dirt (1)
   m_TagString: Ground
@@ -2417,8 +2786,8 @@ Transform:
   m_GameObject: {fileID: 1783276070}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.3, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -2.31645, y: 0, z: 0}
+  m_LocalScale: {x: 1.01412, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 196169221}
@@ -2528,6 +2897,21 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.33, y: 0.06834479}
   m_EdgeRadius: 0
+--- !u!114 &1783276074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783276070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6705c2e7a188f40fe8cbc9895c50091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cameraTransform: {fileID: 519420032}
+  parallaxSpeed: 0.05
+  imageWidth: 20
 --- !u!1 &1795831866
 GameObject:
   m_ObjectHideFlags: 0
@@ -2614,8 +2998,8 @@ Transform:
   m_GameObject: {fileID: 1795831866}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.0223, y: -2.8296, z: 0}
-  m_LocalScale: {x: 36.77737, y: 10.871576, z: 1}
+  m_LocalPosition: {x: 5.0223, y: -4.1261, z: 0}
+  m_LocalScale: {x: 36.77737, y: 6.882795, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1755313826}
